@@ -17,7 +17,7 @@ jobs:
           dockerfile: "Dockerfile"
 
   build-go-app:
-    needs: [linter]
+   
     runs-on: ${{ matrix.os}}
     strategy:
       matrix:
